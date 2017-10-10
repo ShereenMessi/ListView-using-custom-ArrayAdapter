@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         Song[] songs = new Song[10];
         songs[0] = new Song("Hello", "Adele", "4:13");
-        songs[1] = new Song("Despacito", "Luis France", "3:09");
+        songs[1] = new Song("Despacito", "Luis Fonsi", "3:09");
         songs[2] = new Song("Blank Space", "Taylor Swift", "5:29");
         songs[3] = new Song("Mey", "Farmisk", "3:11");
         songs[4] = new Song("Happy","Pharrel Williams","4:09");
