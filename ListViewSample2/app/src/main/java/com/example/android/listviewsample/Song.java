@@ -7,9 +7,9 @@ package com.example.android.listviewsample;
 public class Song {
     private String Name;
     private String Artist;
-    private int Duration;
+    private String Duration;
 
-    public Song(String name, String artist, int duration) {
+    public Song(String name, String artist, String duration) {
         Name = name;
         Artist = artist;
         Duration = duration;
@@ -31,11 +31,11 @@ public class Song {
         Artist = artist;
     }
 
-    public int getDuration() {
+    public String getDuration() {
         return Duration;
     }
 
-    public void setDuration(int duration) {
+    public void setDuration(String duration) {
         Duration = duration;
     }
 }
